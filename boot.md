@@ -50,3 +50,11 @@ git ci -m 'First commit'
 git push --set-upstream origin master
 ```
 
+# Use gmk for self conf
+
+```
+gmk self/config
+gmk mailmap
+gmk conf
+gmk mailmaps
+```
