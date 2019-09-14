@@ -1,0 +1,16 @@
+---
+
+- type: self
+  name: work
+  env: thydel
+  desc: Use gmk work new set repos
+
+- { hub: thydel, token: github/tokens/thydel/hub }
+
+- name: thydel
+  key: &thydel t.delamare@laposte.net
+  configs:
+    user.signingkey: Thierry Delamare (thy) <t.delamare@laposte.net>
+    user.email: *thydel
+
+- { alias: thydel, email: *thydel, full: Thierry Delamare }
