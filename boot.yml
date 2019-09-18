@@ -3,6 +3,7 @@
 - type: self
   name: work
   env: thydel
+  remote: git@github.com:thydel/work.git
   desc: Use gmk work new set repos
 
 - { hub: thydel, token: github/tokens/thydel/hub }
