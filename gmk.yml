@@ -1,9 +1,3 @@
-- type: self
-  name: gmk
-  env: thydel
-  remote: git@github.com:thydel/gmk.git
-  desc: Works with git(hub) repos sets using make and jq
-
 - macros:
     - &pretty
       format.pretty: tformat:%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(22,trunc)%ad %C(auto,green)%<(8,trunc)%aN%C(auto,reset)%s%C(auto,magenta) %GK%C(auto,red)% %d %C(auto,reset)
@@ -38,6 +32,36 @@
 - { hub: thydel, token: github/tokens/thydel/hub }
 - { hub: thyepi, token: github/tokens/thyepi/hub }
 
-- git: git@github.com:thydel/gmk-inventories.git
-  name: gmk-inventories
+- git: git@github.com:Epiconcept-Paris/infra-data-users.git
+  name: data-users
+  conf: thyepi
+  version: gmk
+
+- git: git@github.com:Epiconcept-Paris/infra-password-store.git
+  name: password-store
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-gpg-store.git
+  name: gpg-store
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-data-nodes.git
+  name: data-nodes
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-data-nodes-groups.git
+  name: nodes-groups
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-data.git
+  name: data
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/gmk.git
+  name: gmk
   conf: thydel

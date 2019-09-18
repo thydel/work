@@ -57,4 +57,5 @@ gmk self/config
 gmk mailmap
 gmk conf
 gmk mailmaps
+gmk exclude
 ```
