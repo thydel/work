@@ -1,3 +1,7 @@
+- type: self
+  name: work
+  env: thydel
+
 - macros:
     - &pretty
       format.pretty: tformat:%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(22,trunc)%ad %C(auto,green)%<(8,trunc)%aN%C(auto,reset)%s%C(auto,magenta) %GK%C(auto,red)% %d %C(auto,reset)
