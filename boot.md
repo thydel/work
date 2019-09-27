@@ -1,7 +1,7 @@
 # Some random deps
 
 ```
-aptitude install proot moreutils
+sudo aptitude install proot moreutils
 ```
 
 # Install recent hub and jq
