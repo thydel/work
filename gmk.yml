@@ -32,6 +32,21 @@
 - { hub: thydel, token: github/tokens/thydel/hub }
 - { hub: thyepi, token: github/tokens/thyepi/hub }
 
+- git: git@github.com:Epiconcept-Paris/infra-data-ips.git
+  name: data-ips
+  version: master
+  conf: thyepi
+
+- git: git@github.com:thydel/infra-ips.git
+  name: ips
+  version: master
+  conf: thydel
+
+- git: git@github.com:Epiconcept-Paris/infra-data-inventories.git
+  name: inventories
+  version: master
+  conf: thyepi
+
 - git: git@github.com:Epiconcept-Paris/infra-data-users.git
   name: data-users
   conf: thyepi
