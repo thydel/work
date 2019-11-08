@@ -54,7 +54,7 @@
 - git: git@github.com:Epiconcept-Paris/infra-data-users.git
   name: data-users
   conf: thyepi
-  version: gmk
+  version: master
 
 - git: git@github.com:Epiconcept-Paris/infra-password-store.git
   name: password-store
@@ -84,3 +84,8 @@
 - git: git@github.com:thydel/gmk.git
   name: gmk
   conf: thydel
+
+- git: git@github.com:Epiconcept-Paris/gmk-infra-out.git
+  name: out
+  conf: thyepi
+  version: master
