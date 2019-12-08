@@ -85,7 +85,32 @@
   name: gmk
   conf: thydel
 
+- git: git@github.com:Epiconcept-Paris/charenton-data.git
+  name: charenton
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-files-flow.git
+  name: files-flow
+  conf: thyepi
+  version: master
+
 - git: git@github.com:Epiconcept-Paris/gmk-infra-out.git
   name: out
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/infra-plays-19.git
+  name: plays-19
+  version: master
+  conf: thydel
+
+- git: git@github.com:thydel/infra-play-clone.git
+  name: play-clone
+  version: master
+  conf: thydel
+
+- git: git@github.com:Epiconcept-Paris/infra-data-clone.git
+  name: data-clone
   conf: thyepi
   version: master
