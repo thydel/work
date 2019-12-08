@@ -114,3 +114,8 @@
   name: data-clone
   conf: thyepi
   version: master
+
+- git: git@thyepi.github.com:Epiconcept-Paris/infra-data-misc.git
+  name: data-misc
+  conf: thyepi
+  version: master
