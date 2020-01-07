@@ -119,3 +119,8 @@
   name: data-misc
   conf: thyepi
   version: master
+
+- git: git@github.com:thydel/infra-play-users.git
+  name: play-users
+  version: master
+  conf: thydel
