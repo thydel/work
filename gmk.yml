@@ -115,7 +115,7 @@
   conf: thyepi
   version: master
 
-- git: git@thyepi.github.com:Epiconcept-Paris/infra-data-misc.git
+- git: git@github.com:Epiconcept-Paris/infra-data-misc.git
   name: data-misc
   conf: thyepi
   version: master
@@ -124,3 +124,8 @@
   name: play-users
   version: master
   conf: thydel
+
+- git: git@github.com:Epiconcept-Paris/infra-plays-2020.git
+  name: plays-2020
+  conf: thyepi
+  version: master
