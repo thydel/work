@@ -129,3 +129,8 @@
   name: plays-2020
   conf: thyepi
   version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-duplicity-secrets.git
+  name: duplicity-secrets
+  conf: thyepi
+  version: master
