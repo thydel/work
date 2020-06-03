@@ -134,3 +134,13 @@
   name: duplicity-secrets
   conf: thyepi
   version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-data-centreon.git
+  name: data-centreon
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/notes.git
+  name: notes
+  version: master
+  conf: thydel
