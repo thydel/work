@@ -149,3 +149,8 @@
   name: data-nfs-triple
   conf: thyepi
   version: master
+
+- git: git@github.com:thydel/infra-play-nfs-triple.git
+  name: play-nfs-triple
+  conf: thydel
+  version: master
