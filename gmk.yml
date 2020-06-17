@@ -153,4 +153,9 @@
 - git: git@github.com:thydel/infra-play-nfs-triple.git
   name: play-nfs-triple
   conf: thydel
+  version: tde
+
+- git: git@github.com:Epiconcept-Paris/infra-projets.git
+  name: projets
+  conf: thyepi
   version: master
