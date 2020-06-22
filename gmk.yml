@@ -145,6 +145,11 @@
   version: master
   conf: thydel
 
+- git: git@github.com:thydel/private-notes.git
+  name: private-notes
+  version: master
+  conf: thydel
+
 - git: git@github.com:Epiconcept-Paris/infra-data-nfs-triple.git
   name: data-nfs-triple
   conf: thyepi
