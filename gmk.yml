@@ -164,8 +164,3 @@
   name: projets
   conf: thyepi
   version: master
-
-- git: git@github.com:thydel/dupli-node
-  name: dupli-node
-  conf: thydel
-  version: master
