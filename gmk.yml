@@ -8,9 +8,12 @@
       log.date: format:%Y-%m-%d %H:%M:%S
     - &signingkey
       user.signingkey: Thierry Delamare (thy) <t.delamare@laposte.net>
+    - &newergit
+      pull.rebase: 'false'
     - &thy
       <<: *pretty
       <<: *signingkey
+      <<: *newergit
 
 - name: min
   configs:
