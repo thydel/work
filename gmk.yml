@@ -167,3 +167,8 @@
   name: projets
   conf: thyepi
   version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-flow-matrix.git
+  name: flow-matrix
+  conf: thyepi
+  version: master
