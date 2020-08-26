@@ -172,3 +172,13 @@
   name: flow-matrix
   conf: thyepi
   version: master
+
+- git: git@github.com:thydel/jq-modules.git
+  name: jq-modules
+  conf: thydel
+  version: master
+
+- git: git@github.com:thydel/dupli-tools.git
+  name: dupli-tools
+  conf: thydel
+  version: master
