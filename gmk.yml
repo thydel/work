@@ -182,3 +182,8 @@
   name: dupli-tools
   conf: thydel
   version: master
+
+- git: git@github.com:thydel/locate-stat.git
+  name: locate-stat
+  conf: thydel
+  version: master
