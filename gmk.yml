@@ -187,3 +187,8 @@
   name: locate-stat
   conf: thydel
   version: master
+
+- git: git@thyepi.github.com:Epiconcept-Paris/infra-plays.git
+  name: infra-plays
+  conf: thyepi
+  version: master
