@@ -192,3 +192,13 @@
   name: infra-plays
   conf: thyepi
   version: master
+
+- git: git@thyepi.github.com:Epiconcept-Paris/thy-bce-cron-php-log-script.git
+  name: bce-cron-php-log-script
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/infra-upgrade.git
+  name: infra-upgrade
+  conf: thydel
+  version: master
