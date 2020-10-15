@@ -202,3 +202,8 @@
   name: infra-upgrade
   conf: thydel
   version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-reboot-2.git
+  name: reboot
+  conf: thyepi
+  version: main
