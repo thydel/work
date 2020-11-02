@@ -207,3 +207,8 @@
   name: reboot
   conf: thyepi
   version: main
+
+- git: git@github.com:thydel/ansible-cfg.git
+  name: ansible-cfg
+  conf: thydel
+  version: master
