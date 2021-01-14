@@ -212,3 +212,8 @@
   name: ansible-cfg
   conf: thydel
   version: master
+
+- git: git@github.com:Epiconcept-Paris/plays-2021.git
+  name: plays-2021
+  conf: thyepi
+  version: main
