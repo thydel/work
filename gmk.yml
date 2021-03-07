@@ -217,3 +217,8 @@
   name: plays-2021
   conf: thyepi
   version: main
+
+- git: git@github.com:Epiconcept-Paris/thy-spl.git
+  name: spl
+  conf: thyepi
+  version: main
