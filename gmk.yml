@@ -222,3 +222,8 @@
   name: spl
   conf: thyepi
   version: main
+
+- git: git@github.com:thydel/bash-func-helper.git
+  name: bash-func-helper
+  conf: thydel
+  version: main
