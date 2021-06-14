@@ -227,3 +227,8 @@
   name: bash-func-helper
   conf: thydel
   version: main
+
+- git: git@github.com:thydel/sshd-unconf.git
+  name: sshd-unconf
+  conf: thydel
+  version: main
