@@ -232,3 +232,8 @@
   name: sshd-unconf
   conf: thydel
   version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-tasks.git
+  name: tasks
+  conf: thyepi
+  version: main
