@@ -237,3 +237,13 @@
   name: tasks
   conf: thyepi
   version: main
+
+- git: git@github.com:thydel/matylde.git
+  name: matylde
+  conf: thydel
+  version: main
+
+- git: git@github.com:irinade/Bootcamp.git
+  name: irina-bootcamp
+  conf: thydel
+  version: main
