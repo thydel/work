@@ -252,3 +252,18 @@
   name: data-2022
   conf: thyepi
   version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-audit-server-softwares.git
+  name: audit-server-softwares
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-firewall.git
+  name: infra-firewall
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-doctech.wiki.git
+  name: infra-doctech.wiki
+  conf: thyepi
+  version: master
