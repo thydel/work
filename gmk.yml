@@ -267,3 +267,8 @@
   name: infra-doctech.wiki
   conf: thyepi
   version: master
+
+- git: git@github.com:thydel/corentin.git
+  name: corentin
+  conf: thydel
+  version: main
