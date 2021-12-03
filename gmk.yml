@@ -272,3 +272,7 @@
   name: corentin
   conf: thydel
   version: main
+- git: git@github.com:Epiconcept-Paris/tde-log.git
+  name: tde-log
+  conf: thyepi
+  version: main
