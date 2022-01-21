@@ -282,3 +282,12 @@
   name: monitoring
   conf: thyepi
   version: main
+
+- git: git@github.com:thydel/tde-log.git
+  name: thy-log
+  conf: thydel
+  version: main
+- git: git@github.com:thydel/thy-log.git
+  name: thy-log
+  conf: thydel
+  version: main
