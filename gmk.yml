@@ -287,7 +287,3 @@
   name: thy-log
   conf: thydel
   version: main
-- git: git@github.com:thydel/thy-log.git
-  name: thy-log
-  conf: thydel
-  version: main
