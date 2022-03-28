@@ -292,3 +292,13 @@
   name: ssh-config
   conf: thydel
   version: master
+
+- git: git@github.com:thydel/irina.git
+  name: irina
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-WIP.git
+  name: infra-WIP
+  conf: thyepi
+  version: main
