@@ -302,3 +302,13 @@
   name: infra-WIP
   conf: thyepi
   version: main
+
+- git: git@github.com:irinade/AI_for_Scorpion_identification.git
+  name: AI_for_Scorpion_identification
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-registers.git
+  name: infra-registers
+  conf: thyepi
+  version: main
