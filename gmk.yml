@@ -248,6 +248,11 @@
 #  conf: thydel
 #  version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-data-2021.git
+  name: data-2021
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-data-2022.git
   name: data-2022
   conf: thyepi
