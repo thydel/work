@@ -253,8 +253,18 @@
   conf: thyepi
   version: main
 
-- git: git@github.com:Epiconcept-Paris/infra-data-2022.git
-  name: data-2022
+- git: git@github.com:Epiconcept-Paris/infra-data-src-2022.git
+  name: data-src-2022
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-data-out-2022.git
+  name: data-out-2022
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-play-2022.git
+  name: play-2022
   conf: thyepi
   version: main
 
@@ -317,6 +327,11 @@
   name: infra-registers
   conf: thyepi
   version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-plays-cedric.git
+  name: infra-plays-cedric
+  conf: thyepi
+  version: master
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
