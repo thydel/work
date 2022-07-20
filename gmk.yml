@@ -268,6 +268,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-fact-2022.git
+  name: fact-2022
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-audit-server-softwares.git
   name: audit-server-softwares
   conf: thyepi
@@ -330,6 +335,11 @@
 
 - git: git@github.com:Epiconcept-Paris/infra-plays-cedric.git
   name: infra-plays-cedric
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-notes.git
+  name: infra-notes
   conf: thyepi
   version: master
 
