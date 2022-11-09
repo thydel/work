@@ -353,6 +353,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:thydel/SUM_UP_of_all_my_work
+  name: SUM_UP_of_all_my_work
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
