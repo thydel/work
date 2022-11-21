@@ -358,6 +358,16 @@
   conf: thydel
   version: main
 
+- git: git@github.com:thydel/tst
+  name: tst
+  conf: thydel
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-firewall-config-tools
+  name: infra-firewall-config-tools
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
