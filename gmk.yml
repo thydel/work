@@ -273,6 +273,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-fact-2022.git
+  name: infra-fact-2022
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-audit-server-softwares.git
   name: audit-server-softwares
   conf: thyepi
@@ -365,6 +370,11 @@
 
 - git: git@github.com:Epiconcept-Paris/infra-firewall-config-tools
   name: infra-firewall-config-tools
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-lib-2022.git
+  name: lib-2022
   conf: thyepi
   version: main
 
