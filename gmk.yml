@@ -69,6 +69,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-ssh-store.git
+  name: ssh-store
+  conf: thyepi
+  version: master
+
 - git: git@github.com:Epiconcept-Paris/infra-data-nodes.git
   name: data-nodes
   conf: thyepi
@@ -377,6 +382,11 @@
   name: lib-2022
   conf: thyepi
   version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-core.git
+  name: infra-core
+  conf: thyepi
+  version: master
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
