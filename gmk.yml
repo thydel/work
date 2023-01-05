@@ -64,6 +64,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-password-store-2023.git
+  name: password-store-2023
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-gpg-store.git
   name: gpg-store
   conf: thyepi
