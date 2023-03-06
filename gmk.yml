@@ -398,6 +398,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:thydel/misc-data
+  name: misc-data
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
