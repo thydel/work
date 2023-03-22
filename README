@@ -1,0 +1,4 @@
+touchr() { test "$1" -nt "$2" && echo touch -r ${1@Q} ${2@Q}; }
+propagate-date () { find ${1:?} -depth -type d | grep -v -e /[.][a-z] -e /tmp | while read d; do ls -t "$d" | { read r; touchr "$d/$r" "$d"; }; done; }
+
+propagate-date ext | dash

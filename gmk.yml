@@ -64,8 +64,18 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-password-store-2023.git
+  name: password-store-2023
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-gpg-store.git
   name: gpg-store
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-ssh-store.git
+  name: ssh-store
   conf: thyepi
   version: master
 
@@ -268,8 +278,13 @@
   conf: thyepi
   version: main
 
+#- git: git@github.com:Epiconcept-Paris/infra-fact-2022.git
+#  name: fact-2022
+#  conf: thyepi
+#  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-fact-2022.git
-  name: fact-2022
+  name: infra-fact-2022
   conf: thyepi
   version: main
 
@@ -346,6 +361,51 @@
 - git: git@github.com:Epiconcept-Paris/VEBIS-EHR-VE.git
   name: VEBIS-EHR-VE
   conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/murls.git
+  name: murls
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-legacy-ar-named.git
+  name: ar-named
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/SUM_UP_of_all_my_work
+  name: SUM_UP_of_all_my_work
+  conf: thydel
+  version: main
+
+- git: git@github.com:thydel/tst
+  name: tst
+  conf: thydel
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-firewall-config-tools
+  name: infra-firewall-config-tools
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-lib-2022.git
+  name: lib-2022
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-core.git
+  name: infra-core
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/tde-attic.git
+  name: tde-attic
+  conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/misc-data
+  name: misc-data
+  conf: thydel
   version: main
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
