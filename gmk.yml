@@ -408,6 +408,11 @@
   conf: thydel
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-installs.git
+  name: infra-installs
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
