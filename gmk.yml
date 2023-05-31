@@ -413,6 +413,16 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-ggstuff
+  name: infra-ggstuff
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/fitnetlib
+  name: fitnetlib
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
