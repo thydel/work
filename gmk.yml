@@ -428,6 +428,16 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-fact-2023
+  name: infra-fact-2023
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-deploy
+  name: infra-deploy
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
