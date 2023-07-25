@@ -433,6 +433,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-lib-2023
+  name: infra-lib-2023
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-deploy
   name: infra-deploy
   conf: thyepi
