@@ -438,6 +438,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-play-2023
+  name: infra-play-2023
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-deploy
   name: infra-deploy
   conf: thyepi
