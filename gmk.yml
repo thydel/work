@@ -60,22 +60,22 @@
   version: master
 
 - git: git@github.com:Epiconcept-Paris/infra-password-store.git
-  name: password-store
+  name: infra-password-store
   conf: thyepi
   version: master
 
 - git: git@github.com:Epiconcept-Paris/infra-password-store-2023.git
-  name: password-store-2023
+  name: infra-password-store-2023
   conf: thyepi
   version: main
 
 - git: git@github.com:Epiconcept-Paris/infra-gpg-store.git
-  name: gpg-store
+  name: infra-gpg-store
   conf: thyepi
   version: master
 
 - git: git@github.com:Epiconcept-Paris/infra-ssh-store.git
-  name: ssh-store
+  name: infra-ssh-store
   conf: thyepi
   version: master
 
