@@ -453,6 +453,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-conf-tde
+  name: infra-conf-tde
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
