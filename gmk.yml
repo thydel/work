@@ -453,10 +453,30 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-cheat
+  name: infra-cheat
+  conf: thyepi
+  version: main
+
 - git: git@github.com:Epiconcept-Paris/infra-conf-tde
   name: infra-conf-tde
   conf: thyepi
   version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-repo-apt
+  name: infra-repo-apt
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-build-php
+  name: infra-build-php
+  conf: thyepi
+  version: master
+
+- git: git@github.com:thydel/spl
+  name: thy-spl
+  conf: thydel
+  version: master
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
