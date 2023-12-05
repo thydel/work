@@ -478,6 +478,11 @@
   conf: thydel
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-catalog
+  name: infra-catalog
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
