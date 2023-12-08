@@ -483,6 +483,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/tde-spl
+  name: tde-spl
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
