@@ -488,6 +488,21 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:thydel/cheat
+  name: cheat
+  conf: thydel
+  version: main
+
+- git: git@github.com:thydel/journal
+  name: journal
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-changelog
+  name: infra-changelog
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
