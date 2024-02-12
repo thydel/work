@@ -508,6 +508,11 @@
   conf: thydel
   version: main
 
+- git: git@github.com:thydel/notes-2024
+  name: notes-2024
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
