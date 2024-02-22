@@ -513,6 +513,11 @@
   conf: thydel
   version: main
 
+- git: git@github.com:thydel/one-liner
+  name: one-liner
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
