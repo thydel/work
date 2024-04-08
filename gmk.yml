@@ -518,6 +518,21 @@
   conf: thydel
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-certificates
+  name: infra-certificates
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-pass-certificates
+  name: infra-pass-certificates
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-data
+  name: infra-data
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
