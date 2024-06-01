@@ -533,6 +533,16 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-extfiles
+  name: infra-extfiles
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/infra-oi-scripts-unix
+  name: infra-oi-scripts-unix
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
