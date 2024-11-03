@@ -548,6 +548,11 @@
   conf: thydel
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-provisioning
+  name: infra-provisioning
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
