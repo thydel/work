@@ -553,6 +553,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-terraform-vsphere-virtualmachine
+  name: infra-terraform-vsphere-virtualmachine
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
