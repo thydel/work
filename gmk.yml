@@ -558,6 +558,16 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/osea-infra
+  name: osea-infra
+  conf: thyepi
+  version: master
+
+- git: git@github.com:Epiconcept-Paris/epi-eds
+  name: epi-eds
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
