@@ -568,6 +568,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/documentation-technique.wiki
+  name: documentation-technique.wiki
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
