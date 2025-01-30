@@ -583,6 +583,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/infra-mini-plays.git
+  name: infra-mini-plays
+  conf: thyepi
+  version: master
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
