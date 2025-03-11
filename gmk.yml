@@ -588,6 +588,11 @@
   conf: thyepi
   version: master
 
+- git: git@github.com:Epiconcept-Paris/tde-spl-2025
+  name: tde-spl-2025
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
