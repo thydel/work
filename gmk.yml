@@ -593,6 +593,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-nodes-2025
+  name: infra-nodes-2025
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
