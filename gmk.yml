@@ -598,6 +598,26 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-node-groups-data-2025
+  name: infra-node-groups-data-2025
+  conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/arthur.git
+  name: arthur
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-play-2025
+  name: infra-play-2025
+  conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/christophe.git
+  name: christophe
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
