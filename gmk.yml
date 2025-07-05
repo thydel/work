@@ -633,6 +633,11 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:thydel/geminy.git
+  name: geminy
+  conf: thydel
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
