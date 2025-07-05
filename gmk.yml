@@ -618,6 +618,21 @@
   conf: thydel
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-inventory-2025
+  name: infra-inventory-2025
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/epiged
+  name: epiged
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/jqsh
+  name: jqsh
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
