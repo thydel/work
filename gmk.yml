@@ -543,11 +543,6 @@
   conf: thyepi
   version: master
 
-- git: git@github.com:thydel/jqsh
-  name: jqsh
-  conf: thydel
-  version: main
-
 - git: git@github.com:Epiconcept-Paris/infra-provisioning
   name: infra-provisioning
   conf: thyepi
@@ -628,8 +623,8 @@
   conf: thyepi
   version: main
 
-- git: git@github.com:Epiconcept-Paris/jqsh
-  name: jqsh
+- git: git@github.com:Epiconcept-Paris/infra-templating
+  name: infra-templating
   conf: thyepi
   version: main
 
@@ -637,6 +632,21 @@
   name: geminy
   conf: thydel
   version: main
+
+- git: git@github.com:Epiconcept-Paris/jqsh
+  name: jqsh
+  conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/jqsh
+  name: jqsh-thydel
+  conf: thydel
+  version: main
+
+- git: git@github.com:thydel/packer-infra
+  name: packer-infra
+  conf: thydel
+  version: master
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
