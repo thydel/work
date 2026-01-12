@@ -653,6 +653,26 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-docker-ansible
+  name: infra-docker-ansible
+  conf: thyepi
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-provisioning-claranet
+  name: infra-provisioning-claranet
+  conf: thyepi
+  version: main
+
+- git: git@github.com:thydel/baj
+  name: baj
+  conf: thydel
+  version: main
+
+- git: git@github.com:Epiconcept-Paris/infra-prov-2026
+  name: infra-prov-2026
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
