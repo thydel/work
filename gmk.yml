@@ -673,6 +673,12 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:thydel/fsdb
+  name: fsdb
+  conf: thydel
+  version: main
+
+
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
 #  conf: thyepi
