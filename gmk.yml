@@ -307,12 +307,12 @@
 #  name: corentin
 #  conf: thydel
 #  version: main
-#
-#- git: git@github.com:Epiconcept-Paris/tde-log.git
-#  name: tde-log
-#  conf: thyepi
-#  version: main
-#
+
+- git: git@github.com:Epiconcept-Paris/tde-log.git
+  name: tde-log
+  conf: thyepi
+  version: main
+
 #- git: git@github.com:Epiconcept-Paris/infra-monitoring.git
 #  name: monitoring
 #  conf: thyepi
@@ -438,10 +438,10 @@
   conf: thyepi
   version: main
 
-#- git: git@github.com:Epiconcept-Paris/infra-play-2023
-#  name: infra-play-2023
-#  conf: thyepi
-#  version: main
+- git: git@github.com:Epiconcept-Paris/infra-play-2023
+  name: infra-play-2023
+  conf: thyepi
+  version: main
 
 - git: git@github.com:Epiconcept-Paris/infra-deploy
   name: infra-deploy
