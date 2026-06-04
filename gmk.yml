@@ -673,11 +673,25 @@
   conf: thyepi
   version: main
 
+- git: git@github.com:Epiconcept-Paris/infra-debiancloud-template
+  name: infra-debiancloud-template
+  conf: thyepi
+  version: master
+
 - git: git@github.com:thydel/fsdb
   name: fsdb
   conf: thydel
   version: main
 
+- git: git@github.com:thydel/fsdb-dev
+  name: fsdb-dev
+  conf: thydel
+  version: main
+
+- git: git@github.com:thydel/jstat
+  name: jstat
+  conf: thydel
+  version: main
 
 #- git: git@github.com:Epiconcept-Paris/ArboRisk.git
 #  name: ArboRisk
